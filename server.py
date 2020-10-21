@@ -13,7 +13,7 @@ s.bind((host, port))
 print(host, "(", ip, ")\n")
 name = input(str("Enter your name: "))
            
-s.listen(3)
+s.listen(1)
 print("\nWaiting for incoming connections...\n")
 conn, addr = s.accept()
 print("Received connection from ", addr[0], "(", addr[1], ")\n")
